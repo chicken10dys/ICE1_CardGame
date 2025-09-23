@@ -24,6 +24,11 @@ public class CardTrick {
         int cardSuit;
         boolean isFound = false;
 
+        // add one luckcard hard code 2,clubs
+        Card luckCard = new Card();
+        luckCard.setValue(2);
+        luckCard.setSuit(Card.SUITS[2]);
+
       
         for (int i=0; i<magicHand.length; i++)
         {
